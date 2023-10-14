@@ -1,0 +1,78 @@
+.transactionHistory {
+  width: 800px;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  background-color: #9af3f7;
+
+  border: 1px solid #0f034e;
+  border-radius: 25px;
+
+  box-shadow: 5px 5px 15px 5px #0e011b;
+}
+
+.tableHead {
+  font-size: 26px;
+  font-weight: 500;
+  height: 40px;
+  padding: 8px;
+
+  background: rgba(22, 21, 21, 0.5);
+  color: rgb(200, 224, 245);
+
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.tableData {
+  font-size: 26px;
+  transition: background-color 250ms ease-in-out, opacity 250ms ease-in-out;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+.tableData:hover {
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.9;
+}
+
+.tableDataCell {
+  width: 300px;
+  height: 40px;
+
+  font-size: 22px;
+  text-align: center;
+
+  border-radius: 5px;
+
+  transition: scale 250ms;
+  cursor: pointer;
+}
+
+/* .tableDataCell:hover {
+  scale: 1.1;
+} */
+
+/* .tableData:nth-child(odd) {
+  background-color: rgba(209, 188, 72, 0.4);
+}
+
+.tableData:nth-child(even) {
+  background-color: #80725f80;
+} */
+
+.invoice {
+  background-color: rgba(255, 149, 0, 0.3);
+}
+
+.payment {
+  background-color: rgba(43, 68, 233, 0.3);
+}
+
+.withdrawal {
+  background-color: rgb(240, 156, 162, 0.5);
+}
+
+.deposit {
+  background-color: rgba(58, 213, 58, 0.3);
+}

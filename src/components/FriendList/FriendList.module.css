@@ -1,15 +1,17 @@
 .friendList {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .item {
   display: flex;
-  align-items: center;
-  gap: 30px;
+  flex-direction: column;
 
-  width: 220px;
+  align-items: center;
+  gap: 10px;
+
+  width: 100px;
   padding: 15px;
 
   background-color: rgba(58, 231, 246, 0.4);
